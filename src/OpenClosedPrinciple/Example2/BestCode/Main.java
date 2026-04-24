@@ -9,7 +9,7 @@ public class Main {
 
         service.sendNotification(
                 List.of(NotificationChannelType.EMAIL, NotificationChannelType.SMS),
-                "Your order has shipped"
+                "Your order has shipped Best"
         );
     }
 }
