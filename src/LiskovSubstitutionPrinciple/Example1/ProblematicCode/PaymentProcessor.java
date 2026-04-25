@@ -21,6 +21,7 @@ public class PaymentProcessor {
 
         // The payment processor class now has to know about the specific types of credit cards and their capabilities,
         // Therefore polymorphism is broken and the code is not extensible.
-        // If we want to add a new type of credit card, we will have to modify the payment processor class, which violates the Open/Closed Principle.
+        // If we want to add a new type of credit card, we will have to modify the payment processor class,
+        // which violates the Open/Closed Principle.
     }
 }
