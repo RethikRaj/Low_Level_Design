@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Prototype.ImprovedCode;
+package CreationalDesignPattern.Prototype.BetterCode;
 
 public class PromotionalEmail extends Email {
     private String discountCode;
@@ -22,5 +22,9 @@ public class PromotionalEmail extends Email {
     // getters and setters
     public String getDiscountCode() {
         return this.discountCode;
+    }
+
+    public void setDiscountCode(String discountCode) {
+        this.discountCode = discountCode;
     }
 }
